@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Leiturinha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="top-header">
+      <div class="container">
+        <a href="index.html" class="brand">
+          <div class="logo-icon">📚</div>
+          <div class="logo-text">Leiturinha</div>
+        </a>
+        <div class="search-box"><button class="search-circle">🔍</button></div>
+        <div class="header-actions">
+          <a href="login.html" class="login-btn">Login</a>
+          <div class="user-icon">◌</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="contact-page container">
+    <h1 class="contact-title">Fale conosco</h1>
+
+    <div class="contact-grid">
+      <div class="contact-item">
+        <div class="icon">🟢</div>
+        <div>(69) 98888-9988</div>
+      </div>
+
+      <div class="contact-item">
+        <div class="icon">✉</div>
+        <div>@leiturinha@gmail.com</div>
+      </div>
+    </div>
+
+    <div class="contact-hearts">
+      <span>♡</span>
+      <span>♡</span>
+    </div>
+
+    <section class="form-page">
+      <div class="form-card">
+        <h1>Enviar mensagem</h1>
+
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="contatoNome">Nome</label>
+            <input type="text" id="contatoNome">
+            <span class="error" id="erroContatoNome"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="contatoEmail">E-mail</label>
+            <input type="text" id="contatoEmail">
+            <span class="error" id="erroContatoEmail"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="contatoMensagem">Mensagem</label>
+            <textarea id="contatoMensagem"></textarea>
+            <span class="error" id="erroContatoMensagem"></span>
+          </div>
+
+          <button class="form-submit" type="submit">Enviar</button>
+          <div class="success-message" id="contactSuccess"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="socials">
+        <span>🐦</span>
+        <span>📷</span>
+        <span>✈</span>
+        <span>f</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

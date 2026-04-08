@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categorias - Leiturinha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="top-header">
+      <div class="container">
+        <a href="index.html" class="brand">
+          <div class="logo-icon">📚</div>
+          <div class="logo-text">Leiturinha</div>
+        </a>
+        <div class="search-box"><button class="search-circle">🔍</button></div>
+        <div class="header-actions">
+          <a href="login.html" class="login-btn">Login</a>
+          <div class="user-icon">◌</div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="main-menu">
+      <div class="container">
+        <a href="categoria.html?tipo=romance">Romance</a>
+        <a href="categoria.html?tipo=fantasia">Fantasia</a>
+        <a href="categoria.html?tipo=aventura">Aventura</a>
+        <a href="favoritos.html">Favoritos</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="category-label" id="category-label">ROMANCE</div>
+    <section class="books-grid" id="category-grid"></section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="socials">
+        <span>🐦</span>
+        <span>📷</span>
+        <span>✈</span>
+        <span>f</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

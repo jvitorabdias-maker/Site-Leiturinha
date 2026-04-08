@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Leiturinha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="top-header">
+      <div class="container">
+        <a href="index.html" class="brand">
+          <div class="logo-icon">📚</div>
+          <div class="logo-text">Leiturinha</div>
+        </a>
+        <div class="search-box"><button class="search-circle">🔍</button></div>
+        <div class="header-actions">
+          <a href="login.html" class="login-btn">Login</a>
+          <div class="user-icon">◌</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="form-page">
+    <div class="form-card">
+      <h1>Fazer login</h1>
+
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="loginEmail">E-mail</label>
+          <input type="text" id="loginEmail">
+          <span class="error" id="erroLoginEmail"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="loginSenha">Senha</label>
+          <input type="password" id="loginSenha">
+          <span class="error" id="erroLoginSenha"></span>
+        </div>
+
+        <button class="form-submit" type="submit">Entrar</button>
+        <div class="success-message" id="loginSuccess"></div>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="socials">
+        <span>🐦</span>
+        <span>📷</span>
+        <span>✈</span>
+        <span>f</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
